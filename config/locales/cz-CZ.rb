@@ -64,18 +64,15 @@
       },
       :human => {
         :format => {
-          :precision => 1,
-          :delimiter => ''
+          :precision => 1
         }
       },
       :percentage => {
         :format => {
-          :delimiter => ''
         }
       },
       :precision => {
         :format => {
-          :delimiter => ''
         }
       }
     },
