@@ -30,11 +30,13 @@ Adding Translations
 
 It's easy to add a translation to this demo app, simply drop your locale file into the config/locales directory. As long as it follows the correct format (see config/locales/en-US.rb) it should all work fine.
 
-Contributors
+Contributors (in alphabetical order)
 ===================
 
+Claudio Poli - claudio@icoretech.org - Content translation, Italian locale
 Dr Nic Williams - http://drnicwilliams.com - Australian locale
 Fabio Akita - http://www.akitaonrails.com/ - Portuguese locale
+Kai Chen - http://chenk85.com - Chinese (zh_CN) locale
 Karel Minařík - http://www.karmi.cz - Czech locale
 Leandro Marcucci - http://leanucci.com.ar - Spanish (Argentinean) locale
 Masayuki Nakamura - masayuki@japancentre.com - Content translation, Japanese locale

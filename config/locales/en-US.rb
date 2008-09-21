@@ -53,33 +53,50 @@
     },
 
     # Active Record
-    :active_record => {
-      :error => {
-        :header_message => ["Couldn't save this {{object_name}}: 1 error", "Couldn't save this {{object_name}}: {{count}} errors."],
-        :message => "Please check the following fields:"
-      }
-    },
-    :active_record => {
-      :error_messages => {
-        :inclusion => "is not included in the list",
-        :exclusion => "is not available",
-        :invalid => "is not valid",
-        :confirmation => "does not match its confirmation",
-        :accepted  => "must be accepted",
-        :empty => "must be given",
-        :blank => "must be given",
-        :too_long => "is too long (no more than {{count}} characters)",
-        :too_short => "is too short (no less than {{count}} characters)",
-        :wrong_length => "is not the right length (must be {{count}} characters)",
-        :taken => "is not available",
-        :not_a_number => "is not a number",
-        :greater_than => "must be greater than {{count}}",
-        :greater_than_or_equal_to => "must be greater than or equal to {{count}}",
-        :equal_to => "must be equal to {{count}}",
-        :less_than => "must be less than {{count}}",
-        :less_than_or_equal_to => "must be less than or equal to {{count}}",
-        :odd => "must be odd",
-        :even => "must be even"
+    :activerecord => {
+      :errors => { 
+        :template => {
+          :header => {
+            :one => "Couldn't save this {{model}}: 1 error", 
+            :other => "Couldn't save this {{model}}: {{count}} errors."
+          },
+          :body => "Please check the following fields:"
+        },
+        :messages => {
+          :inclusion => "is not included in the list",
+          :exclusion => "is not available",
+          :invalid => "is not valid",
+          :confirmation => "does not match its confirmation",
+          :accepted  => "must be accepted",
+          :empty => "must be given",
+          :blank => "must be given",
+          :too_long => "is too long (no more than {{count}} characters)",
+          :too_short => "is too short (no less than {{count}} characters)",
+          :wrong_length => "is not the right length (must be {{count}} characters)",
+          :taken => "is not available",
+          :not_a_number => "is not a number",
+          :greater_than => "must be greater than {{count}}",
+          :greater_than_or_equal_to => "must be greater than or equal to {{count}}",
+          :equal_to => "must be equal to {{count}}",
+          :less_than => "must be less than {{count}}",
+          :less_than_or_equal_to => "must be less than or equal to {{count}}",
+          :odd => "must be odd",
+          :even => "must be even"
+        }
+      },
+      :models => { 
+        :employee => { 
+          :one => "Employee", :other => "Employees",
+        }
+      },
+      :attributes => {
+        :employee => {
+          :first_name => "First name",
+          :last_name => "Surname",
+          :email => "Email",
+          :password => "Secret",
+          :employee_number => "Employee #"
+        }
       }
     },
     :txt => {
