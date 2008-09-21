@@ -12,8 +12,9 @@ Setup
 To set up the Localize Rails demo application you need the following steps:
 * git clone git://github.com/clemens/i18n_demo_app.git
 * cd i18n_demo_app
-* ./script/server
-* Fire up your browser and go to localhost:3000 – the index page should be loaded automatically.
+* Run the migrations with <tt>rake db:migrate</tt> for ActiveRecordHelper
+* <tt>./script/server</tt>
+* Fire up your browser and go to <tt>localhost:3000</tt> – the index page should be loaded automatically.
 
 Contents
 ===================
