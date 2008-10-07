@@ -156,6 +156,18 @@
           },
           :body  => "Následující pole obsahují chybně vyplněné údaje:"
         }
+      },
+      :models => {
+        :employee => "Zaměstnanec",
+      },
+      :attributes => {
+        :employee => {
+          :first_name => "Křestní jméno",
+          :last_name => "Příjmení",
+          :email => "Email",
+          :password => "Heslo",
+          :employee_number => "Zaměstnanecké číslo",
+        },
       }
     },
 
