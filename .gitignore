@@ -3,3 +3,4 @@ log/*.log
 tmp/**/*
 db/schema.rb
 db/*.sqlite3
+nbproject/
